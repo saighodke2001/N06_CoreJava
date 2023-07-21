@@ -10,6 +10,7 @@ public class UserInputDemo {
 		Scanner s=new Scanner(System.in);
 		
 		//String
+		
 		System.out.println("Enter a String");
 		//next() 
 		String str=s.next();
@@ -19,6 +20,8 @@ public class UserInputDemo {
 		//nextLine()
 		String str1=s.nextLine();
 		System.out.println("String is "+str1);
+		
+		
 		
 		//int
 		System.out.println("Enter Integer");
