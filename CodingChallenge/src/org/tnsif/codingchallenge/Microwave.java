@@ -7,12 +7,12 @@ public class Microwave {
 		// TODO Auto-generated method stub
 
 			Scanner s=new Scanner(System.in);
-			System.out.println("Enter Atom and heating time:");
-			int atom=s.nextInt();
+			System.out.println("Enter item and heating time:");
+			int item=s.nextInt();
 			double heatTime=s.nextDouble();
 			double total;
 			
-			switch(atom)
+			switch(item)
 			{
 			case 1:
 				total=heatTime;
