@@ -15,28 +15,24 @@ public class HotelTarrif {
 		
 		switch(month)
 		{
+		
+		case 1:
+		case 2:
+		case 3:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+			total=rent*day;
+			System.out.println(total);
+			break;
+			
 		case 4:
-			total1=rent*20/100;
-			total=rent*day+total1;
-			System.out.println(total);
-			break;
-			
 		case 5:
-			total1=rent*20/100;
-			total=rent*day+total1;
-			System.out.println(total);
-			break;
-			
 		case 6:
-			total1=rent*20/100;
-			total=rent*day+total1;
-			System.out.println(total);
-			break;
+			
 		case 11:
-			total1=rent*20/100;
-			total=rent*day+total1;
-			System.out.println(total);
-			break;
+			
 		case 12:
 			total1=rent*20/100;
 			total=rent*day+total1;
@@ -44,8 +40,8 @@ public class HotelTarrif {
 			break;
 		
 		default:
-			total=rent*day;
-			System.out.println(total);
+			System.out.println("Invalid Output!");
+			
 			
 			
 			
